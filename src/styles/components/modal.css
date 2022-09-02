@@ -1,0 +1,47 @@
+.modal {
+  @apply h-screen w-screen fixed top-0 left-0 flex;
+  z-index: 410;
+  .modal-content {
+    @apply relative z-10 mx-auto;
+  }
+  .modal-sm {
+    max-width: 600px;
+  }
+  .modal-md {
+    max-width: 728px;
+  }
+  .modal-lg {
+    max-width: 984px;
+  }
+}
+.modal-content {
+  @apply m-auto;
+  width: 98%;
+  max-height: 98vh;
+
+  @media (min-width: 1024px) {
+    width: 80%;
+  }
+  /* overflow: auto; //this will cut off dropdowns*/
+}
+
+.modal-content h2 {
+  @apply font-bold mb-4 leading-none;
+}
+
+.modal p {
+  @apply font-normal;
+}
+
+.modal-content .close-icon line {
+  fill: none;
+  stroke: #707070;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 32px;
+}
+
+.modal-overlay {
+  @apply absolute top-0 left-0 h-screen w-full;
+  background-color: rgba(0, 0, 0, 0.7);
+}

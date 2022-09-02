@@ -1,0 +1,18 @@
+{
+  "groups": {
+    "search_bar": "test",
+    "members": ["discobot"],
+    "to_edit": "everyone"
+  },
+  "community_members": {
+    "search_bar": "test"
+  },
+  "logs": {
+    "search_staff_actions": "test",
+    "search_screened_emails": "test",
+    "search_screened_ips": "test",
+    "search_screened_urls": "test",
+    "search_search_logs": "test",
+    "search_error_logs": "test"
+  }
+}

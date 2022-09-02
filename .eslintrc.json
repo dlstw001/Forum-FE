@@ -1,0 +1,52 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": false,
+    "codeFrame": false
+  },
+  "extends": ["eslint:recommended", "prettier", "plugin:tailwind/recommended", "plugin:cypress/recommended"],
+  "plugins": ["react", "sort-imports-es6-autofix", "prettier", "import", "react-hooks"],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": ["node_modules", "src/"]
+      }
+    }
+  },
+  "env": {
+    "node": true,
+    "es6": true,
+    "browser": true,
+    "jest": true
+  },
+  "rules": {
+    "max-len": [0, { "code": 180 }],
+    "import/no-webpack-loader-syntax": "off",
+    "prefer-promise-reject-errors": ["off"],
+    "react/jsx-filename-extension": ["off"],
+    "react/prop-types": [0],
+    "no-return-assign": ["off"],
+    "jsx-a11y/anchor-is-valid": ["off"],
+    "indent": 0,
+    "no-console": "error",
+    "no-constant-condition": 0,
+    "no-extra-semi": 0,
+    "no-unused-vars": 2,
+    "no-undef": 2,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "error",
+    "react/jsx-uses-vars": 2,
+    "react/jsx-key": 2,
+    "react/jsx-no-duplicate-props": 2,
+    "react/jsx-no-undef": 2,
+    "react/jsx-uses-react": 2,
+    "no-irregular-whitespace": 2,
+    "sort-imports-es6-autofix/sort-imports-es6": [
+      "error",
+      {
+        "ignoreCase": true
+      }
+    ]
+  }
+}

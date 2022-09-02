@@ -1,0 +1,39 @@
+{
+  "profile": {
+    "about_me": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs",
+    "location": "test",
+    "website": "test",
+    "timezone": "Hongkong"
+  },
+  "activity": {
+    "search_bar": "test"
+  },
+  "notifications": {
+    "check_element": "Peplink Router Utility App via Incontrol2 - dummy 6",
+    "to_read": "Peplink Router Utility App via Incontrol2 - dummy 7",
+    "to_delete": "Peplink Router Utility App via Incontrol2 - dummy 1"
+  },
+  "messages": {
+    "search_bar": "test",
+    "create_to": "Rakhat Shakimbekov",
+    "create_title": "testMessage",
+    "create_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  "drafts": {
+    "title": "test",
+    "content": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
+    "category_topic_modal": "Uncategorized",
+    "tags_topic_modal": ["max", "transit"]
+  },
+  "settings": {
+    "postDefaultLv": "normal",
+    "watchedCategories": ["Uncategorized", "Staff"],
+    "watchedFirstCategories": ["Product Discussion", "Internal"],
+    "mutedCategories": ["Partner Forum", "Insider Forum"],
+    "watchedTags": ["known-issue", "praise"],
+    "watchedFirstTags": ["max", "transit"],
+    "mutedTags": ["ltea", "antenna"],
+    "ignoredUser": ["Matthew Chan", "Chi ming Lai"],
+    "mutedUser": ["Pantec Solutions", "Manish Damani"]
+  }
+}

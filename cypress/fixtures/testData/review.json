@@ -1,0 +1,17 @@
+{
+  "topic_to_review": {
+    "title": "Bandwidth Control from (Private) InControl"
+  },
+  "filters": {
+    "status_select": "Pending",
+    "category_select": "Uncategorized",
+    "post_type_select": "Flagged Post",
+    "reviewable_type_select": "Inappropriate",
+    "minimum_priority_select": "Low",
+    "review_by_select": "discobot",
+    "user_select": "discobot",
+    "date_from": "Mon Mar 01 2021",
+    "date_to": "Wed Mar 31 2021",
+    "order_by_select": "Score"
+  }
+}

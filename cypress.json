@@ -1,0 +1,16 @@
+{
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/reports/tests",
+    "overwrite": false,
+    "html": false,
+    "json": true
+  },
+  "video": true,
+  "viewportWidth": 1366,
+  "viewportHeight": 890,
+  "env": {
+    "RETRIES": 0,
+    "apiUrl": "http://10.8.18.23:4000/api/v1"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "search": {
+    "search_bar": "test",
+    "categories_select": ["Uncategorized", "Staff"],
+    "tags_select": ["max", "transit"],
+    "date_select": "Past Month"
+  }
+}

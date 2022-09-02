@@ -1,0 +1,128 @@
+.icons {
+  display: inline-block;
+  background-repeat: no-repeat;
+  width: 27px;
+  height: 27px;
+}
+.icon-asktim {
+  background: url(/assets/icons/icon_asktim.svg);
+  background-size: 58px;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+.AskTim {
+  @apply bg-secondary;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.icon-chatbot {
+  @apply inline-block bg-no-repeat bg-center w-full h-full;
+  background-image: url(/assets/icons/icon_asktim.svg);
+  background-size: 90%;
+}
+
+.icon-login {
+  @apply text-white no-underline;
+}
+.icon-view-all {
+  margin-top: -1px;
+}
+.icon-write-case {
+  margin-top: -3px;
+}
+.icon-folder {
+  margin: -2px 4px 0 0;
+}
+
+.pinned,
+.archived,
+.closed,
+.unlisted,
+.solved {
+  @apply text-gray-400;
+}
+
+.icon {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  @apply inline-block w-6 h-6;
+  &[class*='icon-file'] {
+    background-image: url('/assets/icons/icon_file-generic.svg');
+  }
+  &.icon-file-xls,
+  &.icon-file-xlsx {
+    background-image: url('/assets/icons/icon_file-excel.svg');
+  }
+  &.icon-file-pdf {
+    background-image: url('/assets/icons/icon_file-pdf.svg');
+  }
+  &.icon-file-png {
+    background-image: url('/assets/icons/icon_file-png.svg');
+  }
+  &.icon-file-jpg {
+    background-image: url('/assets/icons/icon_file-jpg.svg');
+  }
+  &.icon-file-rar {
+    background-image: url('/assets/icons/icon_file-rar.svg');
+  }
+  &.icon-file-txt {
+    background-image: url('/assets/icons/icon_file-txt.svg');
+  }
+  &.icon-file-zip {
+    background-image: url('/assets/icons/icon_file-zip.svg');
+  }
+  &.icon-file-doc,
+  &.icon-file-docx {
+    background-image: url('/assets/icons/icon_file-word.svg');
+  }
+}
+
+.icon-role {
+  background-position: center;
+  background-repeat: no-repeat;
+  top: -5px;
+  left: -4px;
+  @apply inline-block;
+
+  &.icon-leader {
+    background-image: url('/assets/icons/icon_leader.svg');
+  }
+  &.icon-star {
+    background-image: url('/assets/icons/icon_star.svg');
+  }
+}
+
+.icon-popover {
+  background-position: center;
+  background-repeat: no-repeat;
+  top: -45px;
+  left: -4px;
+  @apply inline-block w-10 h-10 absolute;
+
+  &.icon-leader {
+    background-image: url('/assets/icons/icon_leader.svg');
+  }
+  &.icon-star {
+    background-image: url('/assets/icons/icon_star.svg');
+  }
+}
+
+.popover-role-avatar {
+  @apply absolute bg-primary text-white text-xs font-semibold rounded-md py-1 px-4;
+  top: -10px;
+  left: 125px;
+}
+
+.popover-role {
+  @apply absolute bg-primary text-white text-xs font-semibold rounded-md py-1 px-4;
+  top: -10px;
+  left: 12px;
+}

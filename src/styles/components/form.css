@@ -1,0 +1,70 @@
+.form-group {
+  @apply mb-4;
+  label {
+    @apply block mb-1 text-sm;
+  }
+  input,
+  textarea {
+    @apply px-4 py-3 w-full border-0;
+    &:focus {
+      outline: none;
+    }
+    &.sm {
+      @apply py-2;
+    }
+  }
+  &.form-select {
+    input {
+      height: auto;
+    }
+
+    .form-control,
+    .react-select__control {
+      min-height: 36px;
+      padding: 0;
+      &.is-invalid {
+        background-position: right 3.75rem center;
+      }
+    }
+  }
+
+  .react-time-picker {
+    &.react-time-picker--disabled {
+      @apply bg-white opacity-50;
+
+      .react-time-picker__clear-button {
+        @apply hidden;
+      }
+    }
+
+    .react-time-picker__button {
+      @apply absolute text-xl text-gray-400 cursor-pointer top-0 right-0 p-2 h-full flex items-center;
+      &:hover {
+        @apply text-gray-500;
+      }
+    }
+  }
+
+  &.timepicker {
+    &.is-leading-hidden {
+      .react-time-picker__inputGroup__leadingZero {
+        display: none;
+      }
+    }
+    input {
+      @apply h-auto;
+    }
+  }
+
+  &.mb-0 {
+    @apply mb-0;
+  }
+
+  &.form-datepicker {
+    &.w-full {
+      .DayPickerInput {
+        @apply w-full;
+      }
+    }
+  }
+}

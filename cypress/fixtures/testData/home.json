@@ -1,0 +1,9 @@
+{
+  "test_topic": {
+    "title": "test topic",
+    "tag": "known-issue"
+  },
+  "tags": {
+    "title": "test_tag"
+  }
+}

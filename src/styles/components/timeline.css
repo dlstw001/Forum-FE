@@ -1,0 +1,37 @@
+.vertical-slider {
+  height: 380px;
+  width: 50px;
+  @apply my-4 mx-auto;
+}
+.timeline-thumb {
+  left: 1rem;
+  width: 100px;
+  cursor: grab;
+  @apply outline-none absolute leading-tight text-left pl-6 transition-all duration-500;
+}
+.timeline-track {
+  position: relative;
+  @apply bg-primary;
+}
+.timeline-track.timeline-track-1 {
+  @apply bg-primary-dark w-1;
+}
+.timeline-track.timeline-track-2 {
+  background: #0f0;
+}
+.timeline-mark {
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.timeline-track {
+  left: 20px;
+  @apply w-2;
+}
+.timeline-mark {
+  margin: calc(25px - 6px) 0;
+  left: calc(50% - 6px);
+}

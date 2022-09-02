@@ -1,0 +1,11 @@
+version: "2"
+services:
+  nginx-react:
+    container_name: 100871073111.dkr.ecr.us-east-2.amazonaws.com/peplink-forum
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
+    environment:
+      NODE_ENV: production

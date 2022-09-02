@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html,
+body {
+  font-family: 'Poppins', 'Roboto', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  @apply h-full;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  @apply font-semibold;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  line-height: normal;
+}
+h1 {
+  @apply text-3xl;
+}
+
+h2 {
+  @apply text-2xl;
+}
+
+h3 {
+  @apply text-xl;
+}
+h4 {
+  @apply text-lg;
+}
+select,
+input {
+  @apply border-solid border rounded;
+}
+select {
+  cursor: pointer;
+}
+p {
+  @apply mb-4;
+}
+a {
+  @apply cursor-pointer;
+}
+sup {
+  @apply text-danger;
+}
+hr {
+}
+button:disabled {
+  @apply opacity-50;
+}
+button:focus {
+  outline: none;
+}
+
+.spinner {
+  animation: spin 2s linear infinite;
+}
+
+.word-break {
+  word-break: break-word;
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

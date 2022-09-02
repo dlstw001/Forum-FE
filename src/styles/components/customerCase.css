@@ -1,0 +1,147 @@
+.customer-case-detail {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 600;
+    line-height: 1.2;
+  }
+
+  .header-page__single .tb {
+    height: 45vh;
+    min-height: 280px;
+  }
+
+  .tb {
+    display: table;
+    width: 100%;
+    vertical-align: middle;
+  }
+
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .header-page {
+    position: relative;
+    margin-bottom: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+
+    .header-page__single .tb .tb__cell {
+      display: table-cell;
+      vertical-align: bottom;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .header-page__single .header-page__post {
+      padding-left: 55px;
+      padding-right: 55px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .header-page__single .header-page__post {
+      padding-left: calc(8.10185vw - 42.22222px);
+      padding-right: calc(8.10185vw - 42.22222px);
+    }
+  }
+
+  .header-page__single .header-page__post {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgba(33, 33, 34, 0.5);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .post__title,
+  .post__meta {
+    color: #ffffff;
+  }
+
+  .header-page__post .post__title {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+
+  .header-page__post .post__title {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+
+  @media (min-width: 480px) {
+    .header-page__post .post__title {
+      font-size: calc(2.22222vw + 9.33333px);
+    }
+  }
+
+  .trigger svg {
+    color: rgba(255, 184, 28, 1);
+    margin-right: 3px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    height: 12px;
+  }
+
+  .post__meta-cat,
+  .post__meta-partner {
+    &::after {
+      content: '|';
+      margin: 0 5px;
+    }
+  }
+
+  .published-date {
+    color: rgba(255, 255, 255, 0.6);
+    display: inline-block;
+    margin: 0;
+    font-size: 1.2rem;
+  }
+
+  .header-page .overlay {
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  h2 {
+    color: #fcb900;
+    margin-top: 0px;
+    font-size: 34px;
+    margin-bottom: 10px;
+  }
+
+  .wp-block-image {
+    margin-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .customer-cases-listing {
+    .section-title {
+      @apply text-base;
+    }
+
+    button {
+      font-size: 0.75rem;
+      padding: 0.5rem;
+    }
+  }
+}

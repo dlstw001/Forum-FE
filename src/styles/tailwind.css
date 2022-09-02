@@ -1,0 +1,17 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import './components/material-icons.css';
+@import './components/animate.css';
+@import './components/icons.css';
+@import './components/base.css';
+@import './components/main.css';
+@import './components/modal.css';
+@import './components/form.css';
+@import './components/cards.css';
+@import './components/responsive.css';
+@import './components/customerCase.css';
+@import './components/editor.css';
+@import './components/hub.css';
+@import './components/timeline.css';

@@ -1,0 +1,51 @@
+{
+  "create_topic_modal": {
+    "title": "test topic delete",
+    "content": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
+    "category_topic_modal": "Uncategorized",
+    "tags_topic_modal": ["max", "transit"]
+  },
+  "create_customer_case_modal": {
+    "name": "test",
+    "content": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
+    "client": "Mobile Clinics",
+    "partner": "Frontier Computer Corp B.V.",
+    "tags": "MAX HD4 MBX",
+    "url": "urlurl"
+  },
+  "create_section_modal": {
+    "title": "test",
+    "parent_section": "Staff",
+    "description": "description test",
+    "crs_group": ["everyone"],
+    "rs_group": ["everyone"],
+    "s_group": ["everyone"],
+    "banned_tags": ["max"]
+  },
+  "create_group_modal": {
+    "title": "tes_group_test",
+    "group_owners": ["discobot", "system"],
+    "group_members": ["discobot", "system"],
+    "visibility_level": "everyone",
+    "members_visibility_level": "everyone",
+    "mentionable_level": "everyone",
+    "messageable_level": "everyone",
+    "incoming_email": "test@test.com",
+    "default_notification_level": "normal"
+  },
+  "section_settings": {
+    "reorder_from": "Announcements",
+    "reorder_to": "RakhatSectionTest",
+    "category_to_delete": "RakhatSectionTest",
+    "parent_section": "Internal"
+  },
+  "section_edit_modal": {
+    "title": "test",
+    "parent_section": "Staff",
+    "description": "description test",
+    "crs_group": ["everyone"],
+    "rs_group": ["everyone"],
+    "s_group": ["everyone"],
+    "banned_tags": ["max"]
+  }
+}
